@@ -229,27 +229,3 @@ Debate Prep Suite — Project-Centric & Flow Test
 
 Test Results: 25/25 Passed (100% SUCCESS)
 ```
-
----
-
-## 8. Making Your GitHub Repository
-
-To push this project to your GitHub account:
-
-```bash
-# 1. Initialize git
-git init
-
-# 2. Stage all files (respects .gitignore)
-git add .
-
-# 3. Commit
-git commit -m "feat: initial commit of Debate Prep Suite with enterprise IndexedDB storage"
-
-# 4. Link to your GitHub repository
-git remote add origin https://github.com/<YOUR_USERNAME>/debate-prep-suite.git
-
-# 5. Push to main branch
-git branch -M main
-git push -u origin main
-```
